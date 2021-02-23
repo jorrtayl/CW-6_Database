@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Assets (3 Clicks)" HorizontalAlignment="Left" Margin="10,385,0,0" VerticalAlignment="Top" Width="142" Height="22" Click="ShowAssets"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="All Assets" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="99,10,0,0" TextWrapping="Wrap" Text="EmployeeID" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock x:Name="A_EmployeeID" HorizontalAlignment="Left" Margin="99,31,0,0" TextWrapping="Wrap" Text="EmployeeID" TextAlignment="Center" VerticalAlignment="Top" Width="81"/>
+        <TextBlock HorizontalAlignment="Left" Margin="185,10,0,0" TextWrapping="Wrap" Text="AssetID" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock x:Name="A_AssetID" HorizontalAlignment="Left" Margin="185,31,0,0" TextWrapping="Wrap" Text="AssetID" TextAlignment="Center" VerticalAlignment="Top" Width="81"/>
+        <TextBlock HorizontalAlignment="Left" Margin="271,10,0,0" TextWrapping="Wrap" Text="Description" TextAlignment="Center" VerticalAlignment="Top" Width="199" Background="White"/>
+        <TextBlock x:Name="A_Description" HorizontalAlignment="Left" Margin="271,31,0,0" TextWrapping="Wrap" Text="Description" TextAlignment="Center" VerticalAlignment="Top" Width="199"/>
+        <Button Content="Employees (3 Clicks)" HorizontalAlignment="Left" Margin="271,385,0,0" VerticalAlignment="Top" Width="179" Height="22" Click="ShowEmployees" RenderTransformOrigin="2.106,0.313"/>
+        <TextBlock HorizontalAlignment="Left" Margin="441,13,0,0" TextWrapping="Wrap" Text="All Employees" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="531,13,0,0" TextWrapping="Wrap" Text="EmployeeID" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock x:Name="E_EmployeeID" HorizontalAlignment="Left" Margin="531,34,0,0" TextWrapping="Wrap" Text="EmployeeID" TextAlignment="Center" VerticalAlignment="Top" Width="81"/>
+        <TextBlock HorizontalAlignment="Left" Margin="616,13,0,0" TextWrapping="Wrap" Text="FirstName" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock x:Name="E_LastName" HorizontalAlignment="Left" Margin="616,34,0,0" TextWrapping="Wrap" Text="LastName" TextAlignment="Center" VerticalAlignment="Top" Width="81"/>
+        <TextBlock HorizontalAlignment="Left" Margin="703,13,0,0" TextWrapping="Wrap" Text="LastName" TextAlignment="Center" VerticalAlignment="Top" Width="81" Background="White"/>
+        <TextBlock x:Name="E_FirstName" HorizontalAlignment="Left" Margin="703,34,0,0" TextWrapping="Wrap" Text="FirstName" TextAlignment="Center" VerticalAlignment="Top" Width="81"/>
     </Grid>
 </Window>
